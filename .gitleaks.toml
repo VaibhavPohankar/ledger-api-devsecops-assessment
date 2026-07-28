@@ -1,14 +1,9 @@
 [extend]
 useDefault = true
 
-[[allowlists]]
-description = "Intentionally insecure deployment retained as assessment evidence"
+[allowlist]
+description = "Assessment fixtures and encrypted SealedSecret"
 paths = [
-  '''deploy/deployment\.insecure\.yaml'''
-]
-
-[[allowlists]]
-description = "Encrypted Sealed Secrets ciphertext"
-paths = [
+  '''deploy/deployment\.insecure\.yaml''',
   '''deploy/sealed-secret\.yaml'''
 ]
