@@ -3,3 +3,10 @@ __pycache__/
 .env
 .DS_Store
 *.log
+security/cosign/cosign.key
+
+# DevSecOps local/generated files
+security/cosign/cosign.key
+deploy/kubeseal
+deploy/kubeseal-*.tar.gz
+kyverno-config.yaml

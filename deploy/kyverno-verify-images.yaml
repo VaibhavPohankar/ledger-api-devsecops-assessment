@@ -1,0 +1,33 @@
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
+metadata:
+  name: verify-ledger-images
+spec:
+  validationFailureAction: Enforce
+  background: false
+  webhookConfiguration:
+    timeoutSeconds: 30
+  rules:
+    - name: verify-ledger-signature
+      match:
+        any:
+          - resources:
+              kinds:
+                - Pod
+              namespaces:
+                - payments
+      verifyImages:
+        - imageReferences:
+            - "192.168.56.20:5000/ledger-api:*"
+          mutateDigest: true
+          verifyDigest: true
+          required: true
+          attestors:
+            - count: 1
+              entries:
+                - keys:
+                    publicKeys: |-
+                      -----BEGIN PUBLIC KEY-----
+                      MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEbDA1BukIhYfkKOElOfKaASzzFlkW
+                      xpQmI7vSDnQ1/qUuITv5RHaAL3+HqzjX600DLjykmpI+nWyJw2U0hrp1vQ==
+                      -----END PUBLIC KEY-----
