@@ -10,3 +10,4 @@ security/cosign/cosign.key
 deploy/kubeseal
 deploy/kubeseal-*.tar.gz
 kyverno-config.yaml
+istio-1.30.3/
