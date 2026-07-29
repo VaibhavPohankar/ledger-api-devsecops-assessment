@@ -1,0 +1,15 @@
+apiVersion: security.istio.io/v1
+kind: AuthorizationPolicy
+metadata:
+  name: ledger-api-allow-reporting
+  namespace: payments
+spec:
+  selector:
+    matchLabels:
+      app: ledger-api
+  action: ALLOW
+  rules:
+  - from:
+    - source:
+        principals:
+        - cluster.local/ns/payments/sa/reporting
