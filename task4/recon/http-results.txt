@@ -1,0 +1,60 @@
+===== https://dodopayments.tech =====
+HTTP/2 301 
+date: Wed, 29 Jul 2026 10:55:19 GMT
+content-type: text/html; charset=UTF-8
+location: https://dodopayments.com/
+server: cloudflare
+cf-ray: a22b9733bb9a9a7b-NAG
+
+===== https://app.dodopayments.tech =====
+HTTP/2 200 
+date: Wed, 29 Jul 2026 10:55:22 GMT
+content-type: text/html; charset=utf-8
+cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+link: </_next/static/media/166f9bd061a21984-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/24f6ebe2756575bd-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/29b98dbfba401fa9-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/313510e2713fb214-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/52e044ee4a18daae-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/9fb07ff3f4f6d865-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/d2c1ffb734f61872-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/e4af272ccee01ff0-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/edef1a271f97a8ec-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2"
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+vary: Cookie, Accept-Language
+content-security-policy: frame-ancestors 'self' dodopayments.com https://dodopayments.com *.dodopayments.com https://*.dodopayments.com dodopayments.tech https://dodopayments.tech *.dodopayments.tech https://*.dodopayments.tech;
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+===== https://checkout.dodopayments.tech =====
+HTTP/2 404 
+age: 0
+cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+content-security-policy: frame-ancestors *
+content-type: text/html; charset=utf-8
+date: Wed, 29 Jul 2026 10:55:24 GMT
+link: </_next/static/media/313510e2713fb214-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/media/e4af272ccee01ff0-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2"
+permissions-policy: camera=(), microphone=(), geolocation=(), interest-cohort=(), browsing-topics=()
+referrer-policy: strict-origin-when-cross-origin
+server: Vercel
+set-cookie: mode=live; Path=/
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+===== https://keycloak.dodopayments.tech =====
+HTTP/2 302 
+date: Wed, 29 Jul 2026 10:55:25 GMT
+location: https://keycloak.dodopayments.tech/admin/
+referrer-policy: no-referrer
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+cf-cache-status: DYNAMIC
+set-cookie: KC_ROUTE=1785322526.747.2189.632857|fa5e88e34c5da18405c2d037c3279dd0; Max-Age=3600; Path=/; Secure; HttpOnly
+set-cookie: __cf_bm=btTg.vG.4lUsC1e_BMwTaQnUTiacZNNxoWw2Y49nYyc-1785322525.6693265-1.0.1.1-jDAz2N.7T_mQ8D0psPyCfzd0N_GlgkSNZCtoYWP4OXeCvwp31p0lo_yYwIyLSHlNR0NV3I8ED0sHroLigXuSfneiJDTzYYJbKSbi7U.yUMgtaEFek8Mzs5Qdgcx41MGz; HttpOnly; SameSite=None; Secure; Path=/; Domain=dodopayments.tech; Expires=Wed, 29 Jul 2026 11:25:25 GMT
+server: cloudflare
+cf-ray: a22b97596c37dc75-HYD
+
+===== https://sonarqube.dodopayments.tech =====
+HTTP/2 200 
+date: Wed, 29 Jul 2026 10:55:26 GMT
+content-type: text/html;charset=utf-8
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+x-xss-protection: 0
+x-content-type-options: nosniff
+content-security-policy: default-src 'self'; base-uri 'none'; connect-src 'self' http: https:; font-src 'self' data:; frame-src; img-src * data: blob:; object-src 'none'; script-src 'self' 'sha256-D1jaqcDDM2TM2STrzE42NNqyKR9PlptcHDe6tyaBcuM='; style-src 'self' 'unsafe-inline'; worker-src 'self'
+cache-control: no-cache, no-store, must-revalidate
+vary: accept-encoding
+set-cookie: __cf_bm=DmhHZR7tJDUVChUH2TXfg34cMpoDHqjzx_mzutehogY-1785322525.9883957-1.0.1.1-hQWDa.tfmVqaOo.QaQaexShRiTNhpVLr2EGkFV.jUvxxGYEP2ntus5EdsZn.jTL.jIBnFTc1lep1p.jJWmHpSJxLb3KEBl8oAUeQwfjLZ0QuV8TPVxsrw5X7nGsSyjdH; HttpOnly; SameSite=None; Secure; Path=/; Domain=dodopayments.tech; Expires=Wed, 29 Jul 2026 11:25:26 GMT
+cf-cache-status: DYNAMIC

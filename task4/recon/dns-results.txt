@@ -1,0 +1,19 @@
+===== dodopayments.tech =====
+104.18.10.178
+104.18.11.178
+===== app.dodopayments.tech =====
+104.18.11.178
+104.18.10.178
+===== checkout.dodopayments.tech =====
+de7a64549a8a8383.vercel-dns-016.com.
+216.150.16.193
+216.150.1.193
+===== argocd.dodopayments.tech =====
+===== grafana.dodopayments.tech =====
+===== keycloak.dodopayments.tech =====
+104.18.10.178
+104.18.11.178
+===== sonarqube.dodopayments.tech =====
+104.18.11.178
+104.18.10.178
+===== wordpress.dodopayments.tech =====
